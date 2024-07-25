@@ -22,7 +22,7 @@
         line-height: 24px;
         letter-spacing: 0.02em;
         text-align: left;
-        color: #2E2F42;
+        color: #2e2f42;
 }
 .menu-nav :hover {
         color: #404BBF;
@@ -32,6 +32,7 @@
 }
 .adress-nav {
         font-family: Roboto;
+        font-style: normal;
         font-size: 16px;
         font-weight: 400;
         line-height: 24px;
@@ -40,7 +41,10 @@
         color: #434455;
 }
 .adress-nav :hover {
-        color: #404BBF
+        color: #404bbf;
+}
+.adress-nav :active {
+        color: #404bbf;
 }
 
 .section {
@@ -68,12 +72,14 @@
         border-radius: 4px 0px 0px 0px;
         opacity: 0px;
         box-shadow: 0px 4px 4px 0px #00000026;
+        cursor: pointer;
 }
 .button :hover{
-        color: #404BBF;
         background-color:#404BBF;
 }
-
+.button :active {
+        background-color: #404BBF;
+}
 .feature-section {
         font-family: Roboto;
         font-size: 20px;
@@ -97,7 +103,7 @@
         font-family: Roboto;
         font-size: 36px;
         font-weight: 700;
-        line-height: 40px;
+        line-height: 1.11;
         letter-spacing: 0.02em;
         text-align: center;
         color:#2E2F42;
@@ -107,7 +113,7 @@
         font-family: Roboto;
         font-size: 20px;
         font-weight: 500;
-        line-height: 24px;
+        line-height: 1.11;
         letter-spacing: 0.02em;
         text-align: center;
         color: #2E2F42;
@@ -116,7 +122,7 @@
         font-family: Roboto;
         font-size: 16px;
         font-weight: 400;
-        line-height: 24px;
+        line-height: 1.11;
         letter-spacing: 0.02em;
         text-align: center;
         color: #434455;       
@@ -136,7 +142,7 @@
         font-family: Roboto;
         font-size: 16px;
         font-weight: 400;
-        line-height: 24px;
+        line-height: 1.2;
         letter-spacing: 0.02em;
         text-align: left;
         color: #434455;
