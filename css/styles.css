@@ -12,6 +12,12 @@ body {
         text-align: left;
         color: #2E2F42;
 }
+.menu-nav :hover {
+        color: #404BBF;
+}
+.menu-nav :active {
+        color: #404BBF;
+}
 .adress-nav {
         font-family: Roboto;
         font-size: 16px;
@@ -20,6 +26,9 @@ body {
         letter-spacing: 0.02em;
         text-align: left;
         color: #434455;
+}
+.adress-nav :hover {
+        color: #404BBF
 }
 .main {
         font-family: Roboto;
@@ -40,7 +49,11 @@ body {
         gap: 10px;
         border-radius: 4px 0px 0px 0px;
         opacity: 0px;
+        box-shadow: 0px 4px 4px 0px #00000026;
         color:#4D5AE5;
+}
+.button :hover{
+        color: #404BBF;
 }
 .feature-section {
         font-family: Roboto;
