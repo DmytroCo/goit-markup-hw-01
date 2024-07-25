@@ -1,8 +1,20 @@
-body {
-    font-family: 'Roboto','Raleway',sans-serif;
-    color: #2E2F42;
+.body {
+        font-family: 'Roboto',sans-serif;
+        color: #434455;
+        background-color: #FFFFFF;
 }
-
+.header-logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+.studio {
+    color:#2e2f42;
+}
 .menu-nav {
         font-family: Roboto;
         font-size: 16px;
@@ -30,31 +42,38 @@ body {
 .adress-nav :hover {
         color: #404BBF
 }
-.main {
+
+.section {
+        background-color: #2e2f42;
+}
+.section-main {
         font-family: Roboto;
         font-size: 56px;
         font-weight: 700;
-        line-height: 60px;
+        line-height: 1.07;
         letter-spacing: 0.02em;
         text-align: center;
         color: #FFFFFF;
         background-color: #2E2F42;
 }
-.button {
-        width: Hug (169px)px;
-        height: Hug (56px)px;
-        top: 428px;
-        left: 636px;
+.section-button {
+        font-family: Roboto,sans-serif;
+        background-color: #4D5AE5;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        color: #ffffff;
         padding: 16px 32px 16px 32px;
         gap: 10px;
         border-radius: 4px 0px 0px 0px;
         opacity: 0px;
         box-shadow: 0px 4px 4px 0px #00000026;
-        color:#4D5AE5;
 }
 .button :hover{
         color: #404BBF;
+        background-color:#404BBF;
 }
+
 .feature-section {
         font-family: Roboto;
         font-size: 20px;
@@ -73,6 +92,7 @@ body {
         text-align: left;
         color: #434455;
 }
+
 .team {
         font-family: Roboto;
         font-size: 36px;
@@ -101,11 +121,13 @@ body {
         text-align: center;
         color: #434455;       
 }
+
 .portfolio-section {
         font-family: Roboto;
         font-size: 20px;
         font-weight: 500;
-        line-height: 24px;
+        line-height: 1.11;
+        text-transform: capitalize;
         letter-spacing: 0.02em;
         text-align: left;
         color: #2E2F42;
@@ -118,6 +140,22 @@ body {
         letter-spacing: 0.02em;
         text-align: left;
         color: #434455;
+}
+
+.footer {
+        background-color:#2e2f42;
+}
+.footer-logo {
+        font-family: "Raleway", sans-serif;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #4d5ae5;
+}
+.studio-logo {
+    color: #f4f4fd;
 }
 .footer-text {
         font-family: Roboto;
