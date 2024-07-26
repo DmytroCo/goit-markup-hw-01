@@ -24,11 +24,11 @@
         text-align: left;
         color: #2e2f42;
 }
-.menu-nav :hover {
+.menu-nav:hover, .menu-nav:focus {
         color: #404BBF;
 }
-.menu-nav :active {
-        color: #404BBF;
+.adress {
+    font-style: normal;
 }
 .adress-nav {
         font-family: Roboto;
@@ -40,10 +40,7 @@
         text-align: left;
         color: #434455;
 }
-.adress-nav :hover {
-        color: #404bbf;
-}
-.adress-nav :active {
+.adress-nav:hover, .adress-nav:focus {
         color: #404bbf;
 }
 
@@ -70,12 +67,10 @@
         opacity: 0px;
         cursor: pointer;
 }
-.section-button :hover{
+.section-button:hover, .section-button:focus {
         background-color:#404BBF;
 }
-.section-button :active {
-        background-color: #404BBF;
-}
+
 .feature-section {
         font-family: Roboto;
         font-size: 20px;
@@ -97,6 +92,9 @@
 .our-team {
     background-color: #F4F4FD;
 }
+.photo {
+    background-color: #FFFFFF;
+}
 .team {
         font-family: Roboto;
         font-size: 36px;
@@ -111,7 +109,7 @@
         font-family: Roboto;
         font-size: 20px;
         font-weight: 500;
-        line-height: 1.11;
+        line-height: 1.2;
         letter-spacing: 0.02em;
         text-align: center;
         color: #2E2F42;
@@ -120,7 +118,7 @@
         font-family: Roboto;
         font-size: 16px;
         font-weight: 400;
-        line-height: 1.11;
+        line-height: 1.5;
         letter-spacing: 0.02em;
         text-align: center;
         color: #434455;       
@@ -130,7 +128,7 @@
         font-family: Roboto;
         font-size: 20px;
         font-weight: 500;
-        line-height: 1.11;
+        line-height: 1.2;
         text-transform: capitalize;
         letter-spacing: 0.02em;
         text-align: left;
@@ -140,7 +138,7 @@
         font-family: Roboto;
         font-size: 16px;
         font-weight: 400;
-        line-height: 1.2;
+        line-height: 1.5;
         letter-spacing: 0.02em;
         text-align: left;
         color: #434455;
