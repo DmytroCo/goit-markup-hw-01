@@ -4,13 +4,13 @@
         background-color: #FFFFFF;
 }
 .header-logo {
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #4d5ae5;
+        font-family: "Raleway", sans-serif;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #4d5ae5;
 }
 .studio {
     color:#2e2f42;
@@ -35,7 +35,7 @@
         font-style: normal;
         font-size: 16px;
         font-weight: 400;
-        line-height: 24px;
+        line-height: 1.5;
         letter-spacing: 0.02em;
         text-align: left;
         color: #434455;
@@ -67,17 +67,13 @@
         line-height: 1.5;
         letter-spacing: 0.04em;
         color: #ffffff;
-        padding: 16px 32px 16px 32px;
-        gap: 10px;
-        border-radius: 4px 0px 0px 0px;
         opacity: 0px;
-        box-shadow: 0px 4px 4px 0px #00000026;
         cursor: pointer;
 }
-.button :hover{
+.section-button :hover{
         background-color:#404BBF;
 }
-.button :active {
+.section-button :active {
         background-color: #404BBF;
 }
 .feature-section {
@@ -98,16 +94,18 @@
         text-align: left;
         color: #434455;
 }
-
+.our-team {
+    background-color: #F4F4FD;
+}
 .team {
         font-family: Roboto;
         font-size: 36px;
         font-weight: 700;
         line-height: 1.11;
         letter-spacing: 0.02em;
+        text-transform: capitalize;
         text-align: center;
         color:#2E2F42;
-        background-color: #F4F4FD;
 }
 .team-section {
         font-family: Roboto;
